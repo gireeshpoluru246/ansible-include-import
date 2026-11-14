@@ -10,6 +10,10 @@
   debug:
     msg: Hi from msg 3
 
+- name: change the variable
+  set_fact: # We can create variables in tasks using set_fact
+    OS: "Debian"
+
 - name: msg 4
   debug:
     msg: Hi from msg 4
