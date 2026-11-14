@@ -1,0 +1,4 @@
+- name: call common module
+  include_role:
+    name: common
+    
